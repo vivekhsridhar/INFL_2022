@@ -15,3 +15,12 @@ Analysis
 The analysis pipeline is split into two parallel implementations, one for golden shiner fish and the other for homing pigeons. The naming convention of all analyses files encodes the species and the order in which code needs to be run in the prefix '00X_', where '00' is the number that denotes the order in which the code needs to be run and 'X' denotes the speces (F: fish and B: birds). Note that parts of code where the prefix is limited to '00' without 'X' represents code that is common for both species. For example, '[03_DirectionalCorrelation.cu](03_DirectionalCorrelation.cu)'. 
 
 All code except the calculation of time-lagged directional correlations was written using [Python](https://www.python.org/) and [jupyter notebooks](https://jupyter.org/). This specific code was written in [CUDA](https://developer.nvidia.com/cuda-toolkit).
+
+Cite
+----
+
+If you use code from this repository, please cite it using this zenodo DOI:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7113335.svg)](https://doi.org/10.5281/zenodo.7113335)
+
+Thank You for using and citing us!
